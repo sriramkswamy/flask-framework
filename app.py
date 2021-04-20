@@ -44,7 +44,7 @@ def result():
         css_resources=css_resources,
     )
 
-    return render_template('result.html')
+    return html
 
 
 if __name__ == '__main__':
